@@ -1,0 +1,167 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.logo{
+   
+    width: 10%;
+    float: left;
+}
+.img-responsive{
+    width: 100%;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.menu ul{
+    list-style-type:none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+.menu{
+    line-height: 50px;
+}
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+.food-search{
+    background-image: url(../images/web-design-course-restaurant-vijaythapa/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #ff4757;
+    color: white;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+   width: 28%;
+   float: left;
+   margin: 2%;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+.text-white{
+    color: white;
+}
+h3{
+    font-size: 1.5rem;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+   float: left;
+   padding: 2%;
+   background-color: white;
+   border-radius: 15px;
+}
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.img-responsive{
+    width: 100%;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+@media only screen and (max-width:768px) {
+     .logo{
+         width: 70%;
+         float: none;
+         margin: 1% auto;
+     }
+
+.menu ul{
+    text-align: center;
+}
+
+}
